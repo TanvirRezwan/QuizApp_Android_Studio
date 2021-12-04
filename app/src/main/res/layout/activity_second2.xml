@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SecondActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques2Text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/ques2id"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup2Id" >
+        <RadioButton
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/radioButton1q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="Walton" />
+
+        <RadioButton
+            android:id="@+id/radioButton2q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="google" />
+
+        <RadioButton
+            android:id="@+id/radioButton3q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="Apple" />
+
+        <RadioButton
+            android:id="@+id/radioButton4q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="Realme" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/SubmitButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29sp"
+        android:onClick="SubmitFunction"
+        android:text="Submit" />
+</LinearLayout>

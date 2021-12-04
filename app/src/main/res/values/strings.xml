@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="ques1Text">Question 1:what is the longest sea beach in the world</string>
+    <string name="ques2Text">Question 2:who is the owner of android os</string>
+</resources>
